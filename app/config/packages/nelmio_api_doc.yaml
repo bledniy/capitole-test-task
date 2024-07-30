@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: 'Mytheresa Promotions API'
+            description: 'This API allows clients to retrieve a list of products with optional filters for category and price, applying discounts when applicable.'
+            version: '1.0.0'
+    areas:
+        path_patterns:
+            - ^/api(?!/doc$)
